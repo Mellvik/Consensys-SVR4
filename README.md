@@ -20,4 +20,4 @@ What we have here is a good start. The 3 floppies contain an amazing number of f
 
 ![Consensys-diskettes](https://user-images.githubusercontent.com/3629880/211197261-0c3f907a-3a04-4f0c-9943-84782dd43199.jpeg)
 
-Consensys Inc. released several updates (enhancements, bug fixes) to the system after the initial release in 1992, but got a reputation for bad customer support and didn't survive for long.
+Consensys Inc. released several updates (enhancements, bug fixes) to the system after the initial release in 1992, but got a reputation for bad customer support and sales didn't take off. They turned their attention to the fast growing Windows NT market and created a Unix SVR4 product called Portage which allegedly was "a complete integration of UNIX SVR4 with Windows NT". The product sold for $500 in 1995, but again the market was crowded (CygWin, NutCracker and more) and Consensys didn't last for long.
