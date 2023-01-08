@@ -1,4 +1,4 @@
-== Accessing the floppies ==
+## Accessing the floppies
 
 Unsurprisingly, the 3 boot floppies contain System V file systems which means the content is readable via other systems, such as Linux. Ubuntu Desktop 22 is a good choice.
 
