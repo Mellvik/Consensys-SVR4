@@ -2,10 +2,10 @@
 Restoring a lesser-known Unix System V Release 4/i386 distribution from the early 90s 
 
 ## The Goal ##
-To collect/recover a running, complete distribution of the Consensys SVR4 Unix system for Intel 386 (and later) PCs.
+To collect/recover a complete, runnable distribution of the Consensys SVR4 Unix system for Intel 386 (and later) PCs.
 
 ## The Starting Point ##
-Three boot disks - 5-1/4 inch 1.2M floppies containing the first level installation.
+Three boot disks - 5-1/4 inch 1.2M floppies containing the first level installation. Check the images directory for details.
 
 ## Intro ##
 In the early 90s, after Sun Microsystems and AT&T (Unix System Laboratories) merged BSD Unix and Unix System V into Unix SVR4, a plethora of implementations for the Intel 386 platform arrived. From AT&T itself, from Sun (Solaris), from Novell (Unixware) and a number of others. One of them was Consensys Corp. of Dallas, TX.
