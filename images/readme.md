@@ -8,4 +8,4 @@ The shell provides the ability to poke around in the system, but the utilities a
 
 <img width="742" alt="Skjermbilde 2023-01-06 kl  13 59 17" src="https://user-images.githubusercontent.com/3629880/211206110-a02c6eec-eb63-4036-ae0c-5724c7e1ebfa.png">
 
-It seems reasonable to expect that the disk image created and partly filled at this point should be mountable - even bootable if we could find a kernel to boot from. However, I've not been able to get the Linux sysv filesystem implementation to recognize the image. Reason remains unknown.
+It seems reasonable to expect that the disk image created and partly filled at this point should be mountable - even bootable if we could find a kernel to boot from. However, the Linux `sysv` file system implementation supports floppy disks only, so there seem to be no way to access this file system except from a 'real', running System V system. Which may be an interesting next step: Boot an old copy of Solaris 5/386, AT&T System V rel 4/386 or one of the other implementations available on the net.
