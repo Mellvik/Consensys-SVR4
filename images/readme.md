@@ -11,3 +11,6 @@ The shell provides the ability to poke around in the system, but the utilities a
 It seems reasonable to expect that the disk image created and partly filled at this point should be mountable - even bootable if we could find a kernel to boot from. However, the Linux `sysv` file system implementation supports floppy disks only, so there seem to be no way to access this file system except from a 'real', running System V system. Which may be an interesting next step: Boot an old copy of Solaris 5/386, AT&T System V rel 4/386 or one of the other implementations available on the net.
 
 Refer to this link https://kernel.org/doc/Documentation/filesystems/sysv-fs.txt for more details about the Linux `sysv-fs`.
+
+## Complete-dist ##
+This directory contains the floppy images of a complete Consensys SVR4.2 system. Also included is the serial and validation numbers, eliminating the need for the trickery which enabled the 1.2M boot diskettes to work.
