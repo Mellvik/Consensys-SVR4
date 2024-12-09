@@ -14,3 +14,6 @@ Refer to this link https://kernel.org/doc/Documentation/filesystems/sysv-fs.txt 
 
 ## Complete-dist ##
 This directory contains the floppy images of a complete Consensys SVR4.2 system. Also included is the serial and validation numbers, eliminating the need for the trickery which enabled the 1.2M boot diskettes to work.
+
+<img width="742" alt="license numbers" src="./complete-dist/Consensys Unix SVR4.2 License.png">
+
