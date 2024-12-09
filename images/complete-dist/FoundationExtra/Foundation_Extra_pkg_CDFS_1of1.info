@@ -1,0 +1,115 @@
+
+GUYMAGER ACQUISITION INFO FILE
+==============================
+
+Guymager
+========
+
+Version            : 0.8.13-1                                                                                            
+Version timestamp  : 2021-08-04-17.00.00 UTC                                                                             
+Compiled with      : gcc 8.3.0                                                                                           
+libewf version     : 20140804 (not used as Guymager is configured to use its own EWF module)                             
+libguytools version: 2.1.0                                                                                               
+Host name          : bitcurator                                                                                          
+Domain name        : (none)                                                                                              
+System             : Linux bitcurator 6.8.0-49-generic #49-Ubuntu SMP PREEMPT_DYNAMIC Mon Nov  4 02:06:24 UTC 2024 x86_64
+
+
+Device information
+==================
+Command executed: bash -c "search="`basename /dev/sdb`: H..t P.......d A..a de.....d" && dmesg | grep -A3 "$search" || echo "No kernel HPA messages for /dev/sdb""
+Information returned:
+----------------------------------------------------------------------------------------------------
+   No kernel HPA messages for /dev/sdb
+
+Command executed: bash -c "smartctl -s on /dev/sdb ; smartctl -a /dev/sdb"
+Information returned:
+----------------------------------------------------------------------------------------------------
+   smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-49-generic] (local build)
+   Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+   
+   /dev/sdb: Unknown USB bridge [0x0644:0x0000 (0x000)]
+   Please specify device type with the -d option.
+   
+   Use smartctl -h to get a usage summary
+   
+   smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-49-generic] (local build)
+   Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+   
+   /dev/sdb: Unknown USB bridge [0x0644:0x0000 (0x000)]
+   Please specify device type with the -d option.
+   
+   Use smartctl -h to get a usage summary
+
+Command executed: bash -c "hdparm -I /dev/sdb"
+Information returned:
+----------------------------------------------------------------------------------------------------
+   /dev/sdb:
+   
+   ATA device, with non-removable media
+   Standards:
+   	Likely used: 1
+   Configuration:
+   	Logical		max	current
+   	cylinders	0	0
+   	heads		0	0
+   	sectors/track	0	0
+   	--
+   	Logical/Physical Sector size:           512 bytes
+   	device size with M = 1024*1024:           0 MBytes
+   	device size with M = 1000*1000:           0 MBytes 
+   	cache/buffer size  = unknown
+   Capabilities:
+   	IORDY not likely
+   	Cannot perform double-word IO
+   	R/W multiple sector transfer: not supported
+   	DMA: not supported
+   	PIO: pio0
+
+Command executed: bash -c "CIDFILE=/sys/block/$(basename /dev/sdb)/device/cid; echo -n "CID: " ; if [ -e $CIDFILE ] ; then cat $CIDFILE  ; else echo "not available" ; fi "
+Information returned:
+----------------------------------------------------------------------------------------------------
+   CID: not available
+
+Hidden areas: unknown
+
+
+Acquisition
+===========
+
+Linux device            : /dev/sdb                                                  
+Device size             : 1474560 (1.5MB)                                           
+Format                  : Linux dd raw image - file extension is .dd                
+Image path and file name: /media/sf_shared/svr42/Foundation_Extra_pkg_CDFS_1of1.dd  
+Info  path and file name: /media/sf_shared/svr42/Foundation_Extra_pkg_CDFS_1of1.info
+Hash calculation        : MD5 and SHA-1                                             
+Source verification     : on                                                        
+Image verification      : off                                                       
+
+No bad sectors encountered during acquisition.
+No bad sectors encountered during verification.
+State: Finished successfully
+
+MD5 hash                   : acc29b1aa63fcf80e1a23d5d1ac9b6a8        
+MD5 hash verified source   : acc29b1aa63fcf80e1a23d5d1ac9b6a8        
+MD5 hash verified image    : --                                      
+SHA1 hash                  : fe8cd00e2a3c182b5b7606836568eaf64cf7a25b
+SHA1 hash verified source  : fe8cd00e2a3c182b5b7606836568eaf64cf7a25b
+SHA1 hash verified image   : --                                      
+SHA256 hash                : --                                      
+SHA256 hash verified source: --                                      
+SHA256 hash verified image : --                                      
+Source verification OK. The device delivered the same data during acquisition and verification.
+
+Acquisition started : 2024-12-07 00:40:53 (ISO format YYYY-MM-DD HH:MM:SS)   
+Verification started: 2024-12-07 00:41:47                                    
+Ended               : 2024-12-07 00:42:41 (0 hours, 1 minutes and 48 seconds)
+Acquisition speed   : 0.03 MByte/s (0 hours, 0 minutes and 54 seconds)       
+Verification speed  : 0.03 MByte/s (0 hours, 0 minutes and 53 seconds)       
+
+
+Generated image files and their MD5 hashes
+==========================================
+
+No MD5 hashes available (configuration parameter CalcImageFileMD5 is off)
+MD5                               Image file
