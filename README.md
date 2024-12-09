@@ -1,8 +1,8 @@
 # Consensys-SVR4
-Restoring a lesser-known Unix System V Release 4/i386 distribution from the early 90s 
+Restoring a lesser-known Unix System V Release 4/i386 distribution from the early 90s.
 
 ## The Goal ##
-To collect/recover a complete, runnable distribution of the Consensys SVR4 Unix system for Intel 386 (and later) PCs.
+To collect/recover and share a complete, runnable distribution of the Consensys SVR4 Unix system for Intel 386 (and later) PCs. Gather experience, collect docs.
 
 ## The Starting Point ##
 Three boot disks - 5-1/4 inch 1.2M floppies containing the first level installation. Check the images directory for details.
@@ -21,3 +21,6 @@ What we have here is a good start. The 3 floppies contain an amazing number of f
 ![Consensys-diskettes](https://user-images.githubusercontent.com/3629880/211197261-0c3f907a-3a04-4f0c-9943-84782dd43199.jpeg)
 
 Consensys Inc. released several updates (enhancements, bug fixes) to the system after the initial release in 1992, but got a reputation for bad customer support and sales didn't take off. They turned their attention to the fast growing Windows NT market and created a Unix SVR4 product called Portage which allegedly was "a complete integration of UNIX SVR4 with Windows NT". The product sold for $500 in 1995, but again the market was crowded (CygWin, NutCracker and more) and Consensys didn't last for long.
+## Phase II ##
+Thress boot diskettes don't get us very far. Boot a bare bones system and play around a little, nothing more. The distribution from which the diskettes come, included a (long gone) tape cartridge containing the rest of the system. IOW - it was assumed that the target systems has a cartridge drive and a SCSI subsystem. So, even if I still had the cartridge, it would have been of little practical value.
+What I didn'n know until recently (december 2024) is that there was also a floppy-only distribution of the system, 60+ 3.5" diskettes. Not only that, the person who shared this information had kept backup copies of the entire distribution and volunteered to share the images, which are now in my posession. This means, we have a complete system which will be uploaded shortly. After that, I plan to create, configure and share a running VirtualBox disk image, possibly images for other emulators too (like QEMU which is the one I'm using the most).
