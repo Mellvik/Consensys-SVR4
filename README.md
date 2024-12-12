@@ -27,6 +27,6 @@ Three boot diskettes don't get us very far. Boot a bare bones system and play ar
 
 What I didn'n know until recently (december 2024) is that there was also a floppy-only distribution of the system, 60+ 3.5" diskettes. Not only that, the person who shared this information had kept backup copies of the entire distribution and volunteered to share the images, now available in the `images` directory.
 
-In the near future, I plan to create, configure and share a running VirtualBox disk image, possibly images for other emulators too (like QEMU which is the one I'm using the most).
+In the near future, I plan to create, configure and share a running VirtualBox disk image, possibly images for other emulators too (like QEMU which is the one I'm using the most). Check the Wiki for details about this on-going 'endeavour'.
 
 ![StorageOpen](https://github.com/user-attachments/assets/6268e763-949c-44a2-9bfb-3ffc6872a271)
