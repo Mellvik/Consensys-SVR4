@@ -1,4 +1,4 @@
-What's in the images:
+What's in the 1.2M images:
 
 - `Consensys-unix-[1-3].img` - the original floppy images, 1.2MB.
 - `Consensys-unix-2-mod.img` - a minor modification to the 2nd floppy to eliminate the need for a license key.
